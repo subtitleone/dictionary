@@ -1,2 +1,2 @@
-# match-replace
-A list of match and replace values for fixing errors
+# dictionary
+A list of match and replace dictionary values for fixing errors
