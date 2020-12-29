@@ -13,6 +13,7 @@
   { "type": "regex", "match": "^-1 ", "replace": "-I " },
   { "type": "regex", "match": "^-l ", "replace": "-I " },
   { "type": "regex", "match": " 'l ", "replace": " 'I " },
+  { "type": "regex", "match": " ...l ", "replace": " ...I " },
   { "type": "regex", "match": "itwon't", "replace": "it won't" },
   { "type": "regex", "match": "tfraumatize", "replace": "traumatize" },
   { "type": "regex", "match": "Walit.", "replace": "Wait." },
