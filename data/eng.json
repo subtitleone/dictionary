@@ -25,6 +25,12 @@
   { "type": "regex", "match": " timel ", "replace": " time!" },
   { "type": "regex", "match": " nhoth", "replace": " not " },
   { "type": "regex", "match": "horthern", "replace": "northern" },
-  { "type": "regex", "match": "Kedal!", "replace": "Keda!" },
-  { "type": "regex", "match": "ltalian", "replace": "Italian" }
+  { "type": "regex", "match": "ltalian", "replace": "Italian" },
+  { "type": "regex", "match": "^J (.+) J$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^J (.+) &$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^J (.+) I$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^J' (.+) J$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^J' (.+) I$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^JI (.+) J$", "replace": "♪ $1 ♪" },
+  { "type": "regex", "match": "^(\\W{0,4})iIf ", "replace": "$1if " }
 ]
